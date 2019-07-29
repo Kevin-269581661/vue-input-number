@@ -73,9 +73,9 @@ export default {
       console.log('extendParams', extendParams)
     },
     onChangeSpecial(value, btnType, extendParams) {
-      if (value >2018 && btnType == 'decrease') {
+      if (value > 2018 && btnType == 'decrease') {
         this.value3 = 2018
-        console.log('变个戏法')
+        console.log('您点了减按钮，我猜你是想回到2018')
       }
     }
   },
